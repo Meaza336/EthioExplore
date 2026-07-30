@@ -1,28 +1,23 @@
 import { useState } from "react";
 import { MapPin, Calendar, Search } from "lucide-react";
-import profile from "../assets/Back ground image.jpg";
+import profile from "../assets/hero-simien.jpg";
 export function HeroSection() {
   const [destination, setDestination] = useState("");
   const [when, setWhen] = useState("");
 
   const handleSearch = () => {
-    // Wire this up to your search/routing logic
     console.log({ destination, when });
   };
 
   return (
     <section className="relative min-h-screen w-full overflow-hidden">
-      {/* Background image */}
-      <img
-        src={profile}
-        className="absolute inset-0 h-full w-full object-cover"
-      />
+     <img
+  src={profile}
+  alt="Beautiful Ethiopian landscape"
+  className="absolute inset-0 h-full w-full object-cover"/>
 
-      {/* Gradient overlay for text legibility */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/10" />
-
-      {/* Content */}
-      <div className="relative z-10 flex min-h-screen flex-col justify-end px-6 pb-24 sm:px-12 lg:px-20">
+      <div className="relative z-10 flex min-h-screen flex-col justify-center px-6 sm:px-12 lg:px-20">
         <div className="max-w-2xl">
           {/* Eyebrow badge */}
           <span className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm text-white backdrop-blur-sm">
@@ -34,7 +29,7 @@ export function HeroSection() {
           <h1 className="font-serif text-5xl leading-[1.1] text-white sm:text-6xl">
             Discover the wonders
             <br />
-            of <span className="text-amber-500">Ethiopia</span>
+            of <span className="text-amber-400 font-extrabold">Ethiopia</span>
           </h1>
 
           {/* Subtext */}
