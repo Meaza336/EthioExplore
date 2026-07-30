@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { MapPin, Calendar, Search } from "lucide-react";
 import profile from "../assets/hero-simien.jpg";
+
+
 export function HeroSection() {
   const [destination, setDestination] = useState("");
   const [when, setWhen] = useState("");
@@ -76,6 +78,7 @@ export function HeroSection() {
         </div>
       </div>
     </section>
+    
   );
 }
 

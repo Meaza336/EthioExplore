@@ -5,7 +5,7 @@ import { Heart, Mountain } from "lucide-react";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className={`sticky top-0 shadow-md transition-colors duration-300`}>
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-full bg-green-700 flex items-center justify-center">
