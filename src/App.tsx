@@ -5,7 +5,7 @@ import FeaturedDestinations from "./components/FeaturedDestinations";
 import HeritageBanner from "./components/HeritageBanner ";
 import WildeLife from "./components/WildeLife";
 import Footer from "./components/Footer";
-
+import CategoriesC from "./components/CategoriesC"
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <FeaturedDestinations />
       <HeritageBanner />
       <WildeLife />
+      <CategoriesC />
       <Footer />
     </div>
   );
