@@ -4,6 +4,7 @@ import Categories from "./components/Categories";
 import FeaturedDestinations from "./components/FeaturedDestinations";
 import HeritageBanner from "./components/HeritageBanner ";
 import WildeLife from "./components/WildeLife";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <FeaturedDestinations />
       <HeritageBanner />
       <WildeLife />
+      <Footer />
     </div>
   );
 }
