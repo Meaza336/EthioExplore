@@ -4,28 +4,52 @@ import { ArrowRight, MapPin, Star } from "lucide-react";
 import lalibela from "../assets/lalibela.jpg";
 import simien from "../assets/simien.jpg";
 import danakil from "../assets/danakil.jpg";
+import bluenile from "../assets/bluenile.jpg";
+import gondar from "../assets/gondar.jpg";
+import axum from "../assets/axum.jpg";
 function FeaturedDestinations() {
   const places = [
     {
       image: lalibela,
       title: "Lalibela",
-      location: "Amhara",
+      location: "Amhara, Ethiopia",
       rating: 4.9,
       description: "Discover the world-famous rock-hewn churches.",
     },
     {
       image: simien,
       title: "Simien Mountains",
-      location: "Amhara",
+      location: "Amhara,  Ethiopia",
       rating: 4.8,
       description: "Hike through Ethiopia's breathtaking mountains.",
     },
     {
       image: danakil,
       title: "Danakil Depression",
-      location: "Afar",
+      location: "Afar,  Ethiopia",
       rating: 4.7,
       description: "Experience one of Earth's most extraordinary landscapes.",
+    },
+        {
+      image: bluenile,
+      title: "Blue Nile Falls",
+      location: "Amhara,  Ethiopia",
+      rating: 4.9,
+      description: "'Tis Issat' — the water that smokes — thunders across a basalt cliff..",
+    },
+    {
+      image: gondar,
+      title: "Fasil Ghebbi, Gondar",
+      location: "Amhara,  Ethiopia",
+      rating: 4.8,
+      description: "The 'Camelot of Africa' — a walled royal city of castles and palaces.",
+    },
+    {
+      image: axum,
+      title: "Obelisks of Axum",
+      location: "Afar,  Ethiopia",
+      rating: 4.7,
+      description: "Ancient stelae marking the cradle of the Aksumite civilisation..",
     },
   ];
 

@@ -7,7 +7,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="border-t mt-24">
+    <footer className="border-t bg-green-50 mt-24">
       <div className="max-w-7xl mx-auto px-6 py-16">
 
         <div className="grid md:grid-cols-3 gap-12">

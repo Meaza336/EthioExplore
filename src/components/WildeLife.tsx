@@ -1,31 +1,32 @@
 import { ArrowRight, MapPin, Star } from "lucide-react";
 
 
-import lalibela from "../assets/lalibela.jpg";
+import bale from "../assets/bale.jpg";
 import simien from "../assets/simien.jpg";
 import danakil from "../assets/danakil.jpg";
 function FeaturedDestinations() {
   const places = [
-    {
-      image: lalibela,
-      title: "Lalibela",
-      location: "Amhara",
-      rating: 4.9,
-      description: "Discover the world-famous rock-hewn churches.",
-    },
+    
     {
       image: simien,
       title: "Simien Mountains",
-      location: "Amhara",
+      location: "Amhara, ",
       rating: 4.8,
-      description: "Hike through Ethiopia's breathtaking mountains.",
+      description: "Jagged peaks, deep gorges and the roof of Africa above the clouds.",
     },
     {
       image: danakil,
       title: "Danakil Depression",
-      location: "Afar",
+      location: "Afar, Ethiopia",
       rating: 4.7,
-      description: "Experience one of Earth's most extraordinary landscapes.",
+      description: "One of the hottest, lowest and most alien landscapes on Earth.",
+    },
+    {
+      image: bale,
+      title: "Bale Mountains",
+      location: "Oromia, Ethiopia",
+      rating: 4.9,
+      description: "Sanctuary of the endemic Ethiopian wolf and the Sanetti Plateau.",
     },
   ];
 
@@ -34,12 +35,11 @@ function FeaturedDestinations() {
       <div className="flex justify-between items-end mb-12">
         <div>
           <p className="text-green-700 font-semibold">
-            Featured destinations
+            Wild Ethiopia
           </p>
 
           <h2 className="text-5xl font-serif">
-            Explore Ethiopia
-          </h2>
+            National parks & endemic wildlife          </h2>
         </div>
 
         <button className="flex items-center gap-2 text-green-700">
