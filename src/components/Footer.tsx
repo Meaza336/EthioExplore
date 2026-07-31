@@ -85,8 +85,7 @@ function Footer() {
 
         </div>
 
-        {/* Bottom */}
-        <div className="border-t mt-14 pt-8 flex flex-col md:flex-row justify-between text-sm text-gray-500">
+        <div className="border-t mt-14 pt-10 flex flex-col md:flex-row justify-between text-sm text-gray-500">
           <p>
             © 2026 EthioExplore. Made with care in Addis Ababa.
           </p>

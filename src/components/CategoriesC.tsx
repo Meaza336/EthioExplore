@@ -59,6 +59,37 @@ function Categories() {
           </div>
         ))}
       </div>
+       <div className="mt-24 bg-green-50 rounded-[32px] p-10 lg:p-16">
+    <div className="grid lg:grid-cols-2 gap-10 items-center">
+
+      {/* Left Side */}
+      <div>
+        <h2 className="text-5xl font-serif text-gray-900 leading-tight">
+          Stories from the highlands, monthly.
+        </h2>
+
+        <p className="mt-6 text-gray-600 max-w-lg">
+          Field notes, festival calendars and honest travel guides.
+          No spam — ever.
+        </p>
+      </div>
+
+      {/* Right Side */}
+      <div className="flex flex-col sm:flex-row gap-4">
+        <input
+          type="email"
+          placeholder="you@ethiopia.travel"
+          className="flex-1 rounded-full border border-gray-300 px-6 py-4 focus:outline-none focus:ring-2 focus:ring-green-600"
+        />
+
+        <button className="rounded-full bg-green-700 px-8 py-4 text-white font-semibold hover:bg-green-800 transition">
+          Subscribe
+        </button>
+      </div>
+
+    </div>
+  </div>
+
     </section>
   );
 }
